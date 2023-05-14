@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Business form</title>
+</head>
+<link rel="stylesheet" type="text/css" href="data.css">
+<body>
+<div class="divbg"> 
+		<table class="bor" style="max-width: 320px;">
+	<tr>
+		<td colspan="2" align="center"><h2> Business Form</h2></td>
+	</tr>
+	<tr>
+		<td width="100px"  align="right"><b>Email address</b></td>
+
+		<td>
+		<form>
+		<input type="Email" name="email" placeholder="example@email.com" class="bor" style="margin: 0px;">
+		</form>
+		</td>
+	</tr>
+	<tr>
+		<td align="right"><b>Username </b></td>
+
+		<td>
+		<form>
+		<input type="text" name="username" placeholder="username" class="bor" style="margin: 0px;">
+		</form>
+		</td>
+	</tr>
+	<tr>
+		<td  align="right"><b>Password </b></td>
+
+		<td>
+		<form>
+		<input type="password" name="password" placeholder="password123" class="bor" style="margin: 0px;">
+		</form>
+		</td>
+	</tr>
+	<tr>
+		<td align="right"><b>Date of Birth </b></td>
+
+		<td>
+		<form>
+		<input type="date" name="birthdate" class="bor" style="margin: 0px;">
+		</form>
+		</td>
+	</tr>
+	<tr>
+		<td align="right"><b>Gender </b></td>
+
+		<td>
+		<form><b>
+		  	<input type="radio" id="Male" name="Gender" value="male"  class="bor">
+  			<label for="male"><font color="Lightblue"> M</font></label>
+  			<input type="radio" id="female" name="Gender" value="female">
+  			<label for="female"><font color="lightpink" >F</font></label>
+  			<input type="radio" id="nosay" name="Gender" value="Prefernot tosay" class="bor">
+  			<label for="nosay" ><font color="white">?</font></label>
+  			</b>
+		</form>
+		</td>
+	</tr>
+
+	<tr>
+		<td colspan="2">
+			<input type="checkbox" id="agree" name="agree" value="agree" >
+  			<label for="agree"><small>(Optional) It's ok to send me emails with FischlDB Updates, tips and Special offers. you can opt out at any time.</small></label>
+		</td>
+	</tr>
+	<tr>
+		<form>
+		<b>
+		<td align="right"><b>Done?</td>
+		<td>
+			<input type="button" name="submit" value="Submit" class="bor" >
+		</td>
+		</b>
+		</form>
+	</tr>
+</table>
+</div>
+</body>
+</html>
